@@ -71,12 +71,12 @@
         };
 
         Gaming {
-        display-name = "Gaming";
+            display-name = "Gaming";
             bindings = <
 &kp ESC  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5                         &trans  &trans  &trans  &trans  &trans  &trans
 &kp N6   &kp TAB    &kp Q   &kp W   &kp E   &kp R                          &trans  &trans  &trans  &trans  &trans  &trans
 &kp N7   &kp LCTRL  &kp A   &kp S   &kp D   &kp F                          &trans  &trans  &trans  &trans  &trans  &trans
-&kp N8   &kp F      &kp Z   &kp X   &kp C   &kp V     &kp G        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp N8   &kp LSHFT  &kp Z   &kp X   &kp C   &kp V     &kp G        &trans  &trans  &trans  &trans  &trans  &trans  &trans
                             &tog 0  &kp M   &kp LALT  &kp SPACE    &trans  &trans  &trans  &trans
             >;
         };
