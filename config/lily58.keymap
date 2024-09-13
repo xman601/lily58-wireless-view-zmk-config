@@ -9,24 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Search_Bar {
-            bindings = <&search_bar>;
-            key-positions = <53 54>;
-        };
-    };
-
-    macros {
-        search_bar: search_bar {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp SPACE>;
-            label = "SEARCH_BAR";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
