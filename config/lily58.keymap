@@ -109,17 +109,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        Lower_Colemak {
-            if-layers = <5 1>;
-            then-layer = <1>;
-        };
-
-        Raise_Colemak {
-            if-layers = <5 2>;
-            then-layer = <2>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
